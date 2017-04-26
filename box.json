@@ -26,6 +26,7 @@
         "coldbox":"tests\\resources\\app\\coldbox\\"
     },
     "scripts":{
+        "preVersion":"!git add . && !git commit -m \"My Commit\" ",
         "postVersion":"package set location='bdw429s/catascii#v`package version`'",
         "onRelease":"publish",
         "postPublish":"!git push && !git push --tags"
