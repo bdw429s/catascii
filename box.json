@@ -1,8 +1,8 @@
 {
     "name":"catascii",
-    "version":"0.1.1",
+    "version":"0.1.2",
     "author":"",
-    "location":"bdw429s/catascii#v0.1.1",
+    "location":"bdw429s/catascii#v0.1.2",
     "homepage":"https://github.com/bdw429s/catascii",
     "documentation":"https://github.com/bdw429s/catascii",
     "repository":{
@@ -22,8 +22,8 @@
         "testbox":"^2.4.0+80"
     },
     "installPaths":{
-        "testbox":"testbox",
-        "coldbox":"tests\\resources\\app\\coldbox"
+        "testbox":"testbox\\",
+        "coldbox":"tests\\resources\\app\\coldbox\\"
     },
     "scripts":{
         "postVersion":"package set location='bdw429s/catascii#v`package version`'",
