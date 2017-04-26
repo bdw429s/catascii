@@ -1,0 +1,38 @@
+{
+    "name":"catascii",
+    "version":"0.0.0",
+    "author":"",
+    "location":"bdw429s/catascii#v0.0.0",
+    "homepage":"https://github.com/bdw429s/catascii",
+    "documentation":"https://github.com/bdw429s/catascii",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/bdw429s/catascii"
+    },
+    "bugs":"https://github.com/bdw429s/catascii/issues",
+    "slug":"catascii",
+    "shortDescription":"Outputs a fun ASCII art image of a cat.",
+    "description":"Outputs a fun ASCII art image of a cat.",
+    "type":"modules",
+    "dependencies":{
+        
+    },
+    "devDependencies":{
+        "coldbox":"^4.3.0+188",
+        "testbox":"^2.4.0+80"
+    },
+    "installPaths":{
+        "testbox":"testbox",
+        "coldbox":"tests\\resources\\app\\coldbox"
+    },
+    "scripts":{
+        "postVersion":"package set location='bdw429s/catascii#v`package version`'",
+        "onRelease":"publish",
+        "postPublish":"!git push && !git push --tags"
+    },
+    "ignore":[
+        "**/.*",
+        "test",
+        "tests"
+    ]
+}
