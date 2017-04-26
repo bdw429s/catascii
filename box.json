@@ -34,5 +34,8 @@
         "**/.*",
         "test",
         "tests"
-    ]
+    ],
+    "testbox":{
+        "runner":"http://127.0.0.1/tests/runner.cfm"
+    }
 }
