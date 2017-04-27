@@ -1,8 +1,8 @@
 {
     "name":"Cat ASCII",
-    "version":"0.1.4",
+    "version":"0.1.5",
     "author":"",
-    "location":"bdw429s/catascii#v0.1.4",
+    "location":"bdw429s/catascii#v0.1.5",
     "homepage":"https://github.com/bdw429s/catascii",
     "documentation":"https://github.com/bdw429s/catascii",
     "repository":{
@@ -30,7 +30,7 @@
         "postVersion":"package set location='bdw429s/catascii#v`package version`'",
         "onRelease":"publish",
         "postPublish":"!git push && !git push --tags",
-        "cool" : "echo cool"
+        "cool":"echo cool"
     },
     "ignore":[
         "**/.*",
