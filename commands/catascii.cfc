@@ -1,6 +1,5 @@
 component {
-	
-	function run() {		
+	function run( foo ) {		
 		print.line( '
 
                   ;,_            ,
